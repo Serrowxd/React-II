@@ -1,20 +1,17 @@
-import React, { Component } from 'react';
-// import dummyData from '../../dummy-data';
+import React from 'react';
 
-class PostContainer extends Component {
-    constructor() {
-        super();
-        this.state = {
-            
-        };
-    }
-    
-    render() {
-        return(
-            <div className="test2">
-            </div>
-        );
-    }
-}
+export const PostContainer = props => {
+    return (
+        <div>
+            {props.dummyData.map((person => {
+                return (
+                    <div>
+                        <h1>Username: {person.username}</h1>
+                    </div>
+                )
+            }))}
+        </div>
+    )
+};
 
 export default PostContainer;
