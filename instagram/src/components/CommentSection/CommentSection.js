@@ -1,0 +1,1 @@
+// Receive array of comments as props, render each with the username and post text.
