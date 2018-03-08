@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
-import dummyData from '../../dummy-data';
+// import dummyData from '../../dummy-data';
 
 class PostContainer extends Component {
     constructor() {
         super();
         this.state = {
-
+            
         };
     }
+    
     render() {
         return(
-            <div classname="test">
+            <div className="test2">
             </div>
-        )
+        );
     }
 }
 

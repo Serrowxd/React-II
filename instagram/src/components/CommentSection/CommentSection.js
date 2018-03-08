@@ -9,7 +9,7 @@ class CommentSection extends Component {
     }
     render() {
         return(
-            <div classname="test">
+            <div className="test3">
             </div>
         )
     }

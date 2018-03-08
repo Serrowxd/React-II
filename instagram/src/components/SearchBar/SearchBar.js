@@ -9,7 +9,7 @@ class SearchBar extends Component {
     }
     render() {
         return(
-            <div classname="test">
+            <div className="test">
             </div>
         )
     }
